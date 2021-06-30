@@ -15,7 +15,7 @@ enum Suit: Int, CaseIterable, Codable {
     case diamonds
 }
 
-enum Value: Int, Codable {
+enum Value: Int, CaseIterable, Codable {
     case six
     case seven
     case eight
